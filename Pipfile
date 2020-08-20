@@ -12,6 +12,7 @@ requests = "*"
 spotipy = "*"
 pandas = "*"
 numpy = "*"
+jsonify = "*"
 
 [requires]
 python_version = "3.8"
