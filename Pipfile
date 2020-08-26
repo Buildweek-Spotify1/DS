@@ -13,6 +13,8 @@ numpy = "*"
 matplotlib = "*"
 gunicorn = "*"
 bottle = "*"
+flask-sqlalchemy = "*"
+sklearn = "*"
 
 [requires]
 python_version = "3.8"
