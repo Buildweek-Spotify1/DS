@@ -125,4 +125,4 @@ Find the last version of the Flask API on:
 
 [Suggestions example based on a list of favorites](spotifydsapp.herokuapp.com/favorites)
 
-[Radar chart image example based on one song](spotifydsapp.herokuapp.com/image/6VjBxj5OhlHqL4h5qwo6gL)
+[Radar chart image example based on one song](https://spotifydsapp.herokuapp.com/image/6VjBxj5OhlHqL4h5qwo6gL)
