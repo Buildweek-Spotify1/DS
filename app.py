@@ -18,7 +18,7 @@ CACHE = '.spotipyoauthcache'
 
 #sp_oauth = oauth2.SpotifyOAuth(SPOTIPY_CLIENT_ID,SPOTIPY_CLIENT_SECRET,SPOTIPY_REDIRECT_URI,scope=SCOPE,cache_path=CACHE)
 
-df = pd.read_csv("https://raw.githubusercontent.com/Build-Week-Spotify-Song-Suggester-1/Data-science/master/MusicWithGenresFiltered.csv")
+df = pd.read_csv("https://raw.githubusercontent.com/Buildweek-Spotify1/DS/master/MusicWithGenresFiltered.csv")
 def process_input(song_id, return_json = True):
     c = ["duration_ms", "index", "genre", "artist_name", "track_id", "track_name", "key", "mode"] # Columns to Omit
     song = df[df["track_id"] == song_id].iloc[0] # Get Song
@@ -32,6 +32,8 @@ def process_input(song_id, return_json = True):
     if return_json is False:
         return df_selected.iloc[nn.kneighbors(song)[1][0][1:]] # Return results as df
     return df_selected.iloc[nn.kneighbors(song)[1][0][1:]].to_json(orient="records") # Return results as json
+
+
 app = Flask(__name__)
 
 @app.route('/')
