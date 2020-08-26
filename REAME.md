@@ -25,7 +25,7 @@ The app handles the requests, returning the appropriate JSON data.
 
 Example:
 
-` https://spotifyflask.herokuapp.com/song/6VjBxj5OhlHqL4h5qwo6gL`
+` https://spotifydsapp.herokuapp.com/song/6VjBxj5OhlHqL4h5qwo6gL`
 
 Returns:
 
@@ -68,7 +68,7 @@ Here is an example with actual track ids.
 
 Example:
 
-`https://spotifyflask.herokuapp.com/favorites`
+`https://spotifydsapp.herokuapp.com/favorites`
 
 Returns:
 
@@ -92,7 +92,7 @@ Returns:
 
 Example:
 
-`https://spotifyflask.herokuapp.com/image/6VjBxj5OhlHqL4h5qwo6gL`
+`https://spotifydsapp.herokuapp.com/image/6VjBxj5OhlHqL4h5qwo6gL`
 
 Returns:
 
