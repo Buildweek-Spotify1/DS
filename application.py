@@ -42,8 +42,8 @@ def favorites():
     track_list = pd.DataFrame()
     for i in my_dict.values():
         track_list = track_list.append(process_input(i,False))
-    track_list.drop_duplicates()
-    return track_list.sample(30).to_json(orient="records")
+        track_list.drop_duplicates()
+        return track_list.sample(30).to_json(orient="records")
 
 @app.route('/image/<song_id>', methods = ['GET'])
 def radar_map(song_id):
