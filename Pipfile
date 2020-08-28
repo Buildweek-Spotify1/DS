@@ -16,6 +16,7 @@ bottle = "*"
 flask-sqlalchemy = "*"
 sklearn = "*"
 spotipy = "*"
+flask-cors = "*"
 
 [requires]
 python_version = "3.8"

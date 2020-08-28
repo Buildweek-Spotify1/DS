@@ -18,7 +18,7 @@ The DS api for this project has 3 endpoints
 
 * <https://suggestords2.herokuapp.com/song?title=&artist=> (returns information about the song)
 * <https://suggestords2.herokuapp.com/suggestions?title=&artist=> (returns 6 most similar songs, along with data for graphing)
-* <https://suggestords2.herokuapp.com//least?title=&artist=> (returns least similar song)
+* <https://suggestords2.herokuapp.com/least?title=&artist=> (returns least similar song)
 
 Url Parameters: title (song title) artist (artist)
 
