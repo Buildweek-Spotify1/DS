@@ -16,9 +16,9 @@ The app handles the requests, returning the appropriate JSON data.
 
 The DS api for this project has 3 endpoints 
 
-* <https://spotify-suggestor.herokuapp.com/song?title=&artist=> (returns information about the song)
-* <https://spotify-suggestor.herokuapp.com/suggestions?title=&artist=> (returns 6 most similar songs, along with data for graphing)
-* <https://spotify-suggestor.herokuapp.com/least?title=&artist=> (returns least similar song)
+* <https://suggestords2.herokuapp.com/song?title=&artist=> (returns information about the song)
+* https://suggestords2.herokuapp.com/suggestions?title=&artist=> (returns 6 most similar songs, along with data for graphing)
+* <https://suggestords2.herokuapp.com//least?title=&artist=> (returns least similar song)
 
 Url Parameters: title (song title) artist (artist)
 
