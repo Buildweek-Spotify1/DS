@@ -10,11 +10,11 @@ def create_app():
     Create the app, load the model and lookup table, and initiate the spotify client
     '''
     app = Flask(__name__)
-    client_credentials_manager = SpotifyClientCredentials(client_id='8da7b70800a34cecbb89a72541dead74', client_secret='471d09ad2d0b4de5831d99f5063c09c8')
+    client_credentials_manager = SpotifyClientCredentials(client_id='69d7960353114a25ad479492dd0346eb', client_secret='6190f3b487b448d6b0d8340c01baf3ab')
     sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
-    nn = load('/home/henry/Documents/repos/DS/spotify2.joblib')
-    id_map = np.array(pd.read_csv('/home/henry/Documents/repos/DS/MusicWithGenresFil.csv')).reshape(1,-1)[0]
-    data = pd.read_csv('/home/henry/Documents/repos/DS/train.csv').values
+    nn = load('static/spotify2.joblib')
+    id_map = np.array(pd.read_csv('static/IDS2.csv')).reshape(1,-1)[0]
+    data = pd.read_csv('static/train.csv').values
     features = ['danceability',
                 'energy',
                 'key',
