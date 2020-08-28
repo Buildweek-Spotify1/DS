@@ -15,6 +15,7 @@ gunicorn = "*"
 bottle = "*"
 flask-sqlalchemy = "*"
 sklearn = "*"
+spotipy = "*"
 
 [requires]
 python_version = "3.8"
