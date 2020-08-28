@@ -4,12 +4,15 @@ import spotipy
 from joblib import load
 from flask import Flask, request, jsonify
 from spotipy.oauth2 import SpotifyClientCredentials
+from flask_cors import CORS
 
 def create_app():
     '''
     Create the app, load the model and lookup table, and initiate the spotify client
     '''
     app = Flask(__name__)
+    cors = CORS(app)
+    app.config['CORS_HEADERS'] = 'Content-Type'
     client_credentials_manager = SpotifyClientCredentials(client_id='69d7960353114a25ad479492dd0346eb', client_secret='6190f3b487b448d6b0d8340c01baf3ab')
     sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
     nn = load('static/spotify2.joblib')
