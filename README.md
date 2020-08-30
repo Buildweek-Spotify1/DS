@@ -17,6 +17,8 @@ The app handles the requests, returning the appropriate JSON data.
 The DS api for this project has 3 endpoints 
 
 * <https://suggestords2.herokuapp.com/song?title=&artist=> (returns information about the song)
+
+
 Example:
 ` https://suggestords2.herokuapp.com/song?title=Hello&artist=Adele`
 
