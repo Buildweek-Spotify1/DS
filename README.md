@@ -18,22 +18,22 @@ The DS api for this project has 3 endpoints
 
 * <https://suggestords2.herokuapp.com/song?title=&artist=> (returns information about the song)
 Example:
-'https://suggestords2.herokuapp.com/song?title=Hello&artist=Adele'
+` https://suggestords2.herokuapp.com/song?title=Hello&artist=Adele`
 
 Returns:
-'album	25
+`album	25
 artist	Adele
 id	4sPmO7WMQUAf45kwMOtONw
-title	Hello '
+title	Hello `
 
 
 * <https://suggestords2.herokuapp.com/suggestions?title=&artist=> (returns 6 most similar songs, along with data for graphing)
 
 Example:
-'https://suggestords2.herokuapp.com/suggestions?title=Hello&artist=Adele '
+`https://suggestords2.herokuapp.com/suggestions?title=Hello&artist=Adele `
 
 Returns:
-'	
+`	
 tracks	
 0	
 features	
@@ -53,19 +53,19 @@ album	miwa the Best
 artist	miwa
 id	3o9Gn0UhzcNZDPyGmBkSHQ
 image	https://i.scdn.co/image/ab67616d00001e02a96850706ce324c3c64481e1
-title	Unchained Love '
+title	Unchained Love `
 
 * <https://suggestords2.herokuapp.com/least?title=&artist=> (returns least similar song)]
 
 Example:
-'https://suggestords2.herokuapp.com/least?title=Hello&artist=Adele'
+`https://suggestords2.herokuapp.com/least?title=Hello&artist=Adele`
 
 
 Returns:	
-'album	Natural Water Sounds for Sleep and Relaxation Volume 1
+`album	Natural Water Sounds for Sleep and Relaxation Volume 1
 artist	Tmsoft’s White Noise Sleep Sounds
 id	4FICqRgVTZsHOnU9QNKCPD
-image	https://i.scdn.co/image/ab67616d00001e029d882c85f44dee0c855077ff '
+image	https://i.scdn.co/image/ab67616d00001e029d882c85f44dee0c855077ff `
 
 Url Parameters: title (song title) artist (artist)
 
