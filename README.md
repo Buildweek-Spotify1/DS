@@ -78,7 +78,7 @@ User input is sent to the spotify api in order to retrieve correct song info and
 
 # Functional product
 
-after collaboration withe software engineers our api was intergrated into their porject 
+after collaboration withe software engineers our api was intergrated into their project 
 
-``` https://elated-wing-bdbe68.netlify.app/
-```
+`https://elated-wing-bdbe68.netlify.app/
+`
