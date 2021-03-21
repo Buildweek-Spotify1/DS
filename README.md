@@ -74,3 +74,11 @@ Url Parameters: title (song title) artist (artist)
 Results will be returned as long as one of the parameters is entered, and is a valid artist name/song title
 
 User input is sent to the spotify api in order to retrieve correct song info and audio features
+
+
+# Functional product
+
+after collaboration withe software engineers our api was intergrated into their porject 
+
+``` https://elated-wing-bdbe68.netlify.app/
+```
